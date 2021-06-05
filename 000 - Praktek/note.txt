@@ -1,0 +1,2 @@
+Untuk menjalankan file gunakan CMD
+Ketikan perintah `php nama_file` (php HelloWorld.php)
