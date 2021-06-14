@@ -3,5 +3,6 @@
 require_once "data/Person.php";
 
 $person = new Person;
+$person->name = "Syafiq";
 
-$person->sayHeloo("Syafiq");
+$person->sayHello("Jennifer");

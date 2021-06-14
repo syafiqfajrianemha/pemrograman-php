@@ -8,8 +8,12 @@ class Person
     var string $country = "Indonesia";
 
     // function atau method
-    function sayHeloo(string $name)
+    function sayHello(?string $name)
     {
-        echo "Hello $name" . PHP_EOL;
+        if (is_null($name)) {
+            echo "Hi, my name is {$this->name}";
+        } else {
+            echo "Hi {$name}, my name is {$this->name}";
+        }
     }
 }
