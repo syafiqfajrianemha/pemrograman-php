@@ -2,6 +2,9 @@
 
 class Person
 {
+    // constant
+    const AUTHOR = "Syafiq Fajrian Emha";
+
     // properties / attribute
     var string $name;
     var ?string $address = null;
