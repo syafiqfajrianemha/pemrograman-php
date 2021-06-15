@@ -6,3 +6,5 @@ $person = new Person;
 $person->name = "Syafiq";
 
 $person->sayHello("Jennifer");
+
+$person->info();
