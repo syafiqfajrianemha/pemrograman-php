@@ -10,6 +10,13 @@ class Person
     var ?string $address = null;
     var string $country = "Indonesia";
 
+    // constructor
+    function __construct(string $name, ?string $address)
+    {
+        $this->name = $name;
+        $this->address = $address;
+    }
+
     // function atau method
     function sayHello(?string $name)
     {

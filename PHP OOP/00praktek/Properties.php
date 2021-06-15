@@ -2,7 +2,7 @@
 
 require_once __DIR__ . "/data/Person.php";
 
-$person = new Person;
+$person = new Person("Syafiq", "Purbalingga");
 $person->name = "Syafiq";
 $person->address = "Jateng";
 
@@ -11,7 +11,7 @@ echo "Address : {$person->address}" . PHP_EOL;
 echo "Country : {$person->country}" . PHP_EOL;
 
 
-$person2 = new Person;
+$person2 = new Person("Syafiq", null);
 $person2->name = "Budi";
 $person2->address = null;
 
