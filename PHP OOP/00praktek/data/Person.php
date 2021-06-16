@@ -32,4 +32,10 @@ class Person
     {
         echo "Author : " . self::AUTHOR . PHP_EOL;
     }
+
+    // destructor
+    function __destruct()
+    {
+        echo "Object person $this->name is destroyed" . PHP_EOL;
+    }
 }
