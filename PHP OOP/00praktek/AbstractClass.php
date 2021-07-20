@@ -9,5 +9,3 @@ use Data\{Location, City};
 $location = new City();
 $location->name = "Jateng";
 echo $location->name;
-
-// Author : Syafiq Fajrian Emha
